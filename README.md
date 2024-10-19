@@ -20,6 +20,8 @@ bacterial de Escherichia coli (E. coli). Estos datos simulan el crecimiento en u
 |5|30.0|
 |6|60.0|
 
+## Solución
+
 Con ayuda de la inteligencia artificial **POE** obtenemos la solución en python para dterminar la población de bacterias despues de **2.5 horas** aplicando interpolación por Newton.
 
 ```{python}
@@ -71,7 +73,7 @@ plt.xlim(0, 6)
 plt.ylim(0, 100)
 plt.show()
 ```
-## Solución
+## Resultados
 
 ![Gráfico](Figure_1.png)
 
